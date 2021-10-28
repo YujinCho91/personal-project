@@ -28,22 +28,77 @@ Large: 1.8
 }
 
 .section-YY {
+  max-width: 132rem;
+  max-height: 130rem;
   padding: 50px 50px;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
 
+.logo {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+
 .main-title {
-  font-size: 5.2rem;
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-left: 2rem;
+}
+
+.sub-title {
+  font-size: 2.8rem;
+  line-height: 1;
+  margin-bottom: 15rem;
+  margin-left: 2rem;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  background-color: rgb(85, 153, 218);
+  justify-content: space-between;
 }
 
 .partner-img {
   display: flex;
   height: 20rem;
   width: 20rem;
+  align-self: end;
+  margin-bottom: 1rem;
+  margin-right: -2rem;
+}
+
+/* 2ND STEP */
+.sub-header {
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.last-container {
+  display: grid;
+  font-family: sans-serif;
+  justify-items: center;
+  background-color: rgb(85, 203, 218);
+  justify-items: 1fr 3fr;
+}
+
+.question {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  list-style: none;
+}
+
+.question-item {
+  box-sizing: border-box;
+}
+
+.answer-item {
+  margin-bottom: 3rem;
 }
