@@ -22,9 +22,13 @@ Large: 1.8
 0.75px  */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 3px;
   box-sizing: border-box;
+}
+
+body {
+  position: relative;
 }
 
 .section-YY {
@@ -80,6 +84,7 @@ Large: 1.8
   line-height: 1.5;
   margin-top: 2rem;
   font-weight: bold;
+  margin-left: -10.5rem;
 }
 
 .last-container {
@@ -107,4 +112,33 @@ Large: 1.8
 
 .answer-item {
   margin-top: 3rem;
+}
+
+.btn-full,
+.btn-full {
+  display: inline-block;
+  text-decoration: None;
+  font-size: 1.2rem;
+  background-color: black;
+  color: #fff;
+  border-radius: 50px;
+  padding: 0.2rem 2.2rem;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 1s;
+  box-sizing: border-box;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: white;
+  color: black;
+}
+
+.option {
+  margin-bottom: 2.2rem;
+}
+.check {
+  display: block;
+  width: 23rem;
 }
