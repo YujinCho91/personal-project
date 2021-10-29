@@ -35,38 +35,45 @@
         <header class="sub-header">Get your free article</header>
         <ul class="question">
           <li class="question-item">
+            
             Full name
-            <hr class="answer-item" width="180%" />
+            <form class="name" action="#">
+              <input id="full-name" type="text" />
+            </form>
+            <hr class="answer-item" width="100%" />
           </li>
           <li class="question-item">
             Business email
-            <hr class="answer-item" width="180%" />
+            <hr class="answer-item" width="100%" />
           </li>
           <li class="question-item">
             Business phone
-            <hr class="answer-item" width="180%" />
+            <hr class="answer-item" width="100%" />
           </li>
           <li class="question-item">
             Agency name
-            <hr class="answer-item" width="180%" />
+            <hr class="answer-item" width="100%" />
           </li>
-          <li class="question-item">
-            Do you build sites for clients
-            <hr class="answer-item" width="180%" />
+          <li class="question-item option">
+            <label for="for client">Do you build sites for clients?</label>
+            <select id="select-answer">
+              <option value="yes">Yes, For clients</option>
+              <option value="no">No. Just build sites</option>
+            </select>
           </li>
           <li class="question-item">
             Agency website
-            <hr class="answer-item" width="180%" />
+            <hr class="answer-item" width="100%" />
           </li>
         </ul>
-        <p>
-          I agree to be contacted by YY.com by email or phone, including via
-          automated technology. about YY's service in line with YY's Privacy
-          Policy
+        <p class="check">
+          <input type="checkbox" /> I agree to be contacted by YY.com by email
+          or phone, including via automated technology. about YY's service in
+          line with YY's Privacy Policy
         </p>
 
-        <div class="btn"><a href="#" class="btn-full">Get the Article</a></div>
-        <p>By clikcing get the article. I agree to the YY terms of Use</p>
+        <a href="#" class="btn-full">Get the Article</a>
+        <p>By clikcing get the article. I agree to the <a href="#" class=line">YY terms of Use</a></p>
       </div>
     </section>
   </body>
