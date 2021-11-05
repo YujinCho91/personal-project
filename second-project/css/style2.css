@@ -88,8 +88,34 @@ Large: 1.8
   padding-right: 0;
 }
 
+.section1 {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+}
+
 .mario {
-  width: 1400px;
-  height: 650px;
+  width: auto;
+  height: auto;
   padding-top: 1.2rem;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.available {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  padding-right: 6rem;
+}
+
+.available-now {
+}
+
+.available-age {
+  width: 100px;
+  height: 140px;
 }
