@@ -1,0 +1,53 @@
+body {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  gap: 4rem;
+}
+
+.main-container {
+  display: grid;
+  background-color: rgba(98, 43, 150, 0.795);
+}
+
+.head-title {
+  font-weight: bold;
+  font-size: 2.4rem;
+  font-family: serif;
+  margin-left: 1.6rem;
+}
+
+.sub-title {
+  font-size: 1.4rem;
+  margin-left: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  display: grid;
+  gap: 4rem;
+  margin-left: 1.6rem;
+  margin-bottom: 4.6rem;
+}
+
+.icon {
+  margin-bottom: 4.6rem;
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+  margin-left: 1.2rem;
+}
+
+.sub-icon:link,
+.sub-icon:visited {
+  cursor: pointer;
+  text-decoration: None;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  transition: all 0.5s;
+}
+.sub-icon:hover,
+.sub-icon:active {
+  background-color: pink;
+}
