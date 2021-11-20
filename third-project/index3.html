@@ -26,14 +26,16 @@
 
       <div class="contact-info">
         <div class="phone">
-          <ion-icon name="call-outline"></ion-icon> +0123 4567 8910
+          <ion-icon name="call-outline" class="contact-icon"></ion-icon>
+          <p class="contact-information">+0123 4567 8910</p>
         </div>
         <div class="email">
-          <ion-icon name="mail-outline"></ion-icon> hello@flowbase.com
+          <ion-icon name="mail-outline" class="contact-icon"></ion-icon>
+          <p class="contact-information">ello@flowbase.com</p>
         </div>
         <div class="address">
-          <ion-icon name="location-outline"></ion-icon>
-          102 Street 2714 Don
+          <ion-icon name="location-outline" class="contact-icon"></ion-icon>
+          <p class="contact-information">102 Street 2714 Don</p>
         </div>
       </div>
 
@@ -62,7 +64,85 @@
     </div>
 
     <div class="sub-container">
-      <p>FirstName</p>
+      <form class="enrollment" action="#">
+        <div class="first">
+          <div class="question">
+            <label for="First Name" class="question-answer">First Name</label>
+            <input
+              id="First Name"
+              type="text"
+              placeholder="First Name"
+              class="line-input"
+            />
+          </div>
+          <div class="question">
+            <label for="Last Name" class="question-answer">Last Name</label>
+            <input
+              id="Last Name"
+              type="text"
+              placeholder="John Doe"
+              class="line-input"
+            />
+          </div>
+        </div>
+        <div class="second">
+          <div class="question">
+            <label for="Mail" class="question-answer">Mails</label>
+            <input
+              id="Mail"
+              type="email"
+              placeholder="ersadwork@gmail.com"
+              class="line-input"
+            />
+          </div>
+          <div class="question">
+            <label for="Phone" class="question-answer">Phone</label>
+            <input
+              id="Phone"
+              type="number"
+              placeholder="+90 543 779 94 64"
+              class="line-input"
+            />
+          </div>
+        </div>
+        <div class="third">
+          <p for="What website" class="question-answer">
+            What the of website do you need?
+          </p>
+          <div class="selection">
+            <div class="small-selection">
+              <input type="checkbox" id="web design" name="web design" />
+              <label for="Web Design">Web Design</label>
+            </div>
+            <div class="small-selection">
+              <input
+                type="checkbox"
+                id="web development"
+                name="web development"
+                checked
+              />
+              <label for="Web Development">Web Development</label>
+            </div>
+            <div class="small-selection">
+              <input type="checkbox" id="Logo Design" name="Logo design" />
+              <label for="Logo Design">Logo Design</label>
+            </div>
+            <div class="small-selection">
+              <input type="checkbox" id="Other" name="Other" />
+              <label for="Other">Other</label>
+            </div>
+          </div>
+        </div>
+        <div class="fourth">
+          <p class="question-answer question-answer-message">Message</p>
+          <p>
+            <a class="gray-answer line-input line-input-message"
+              >Wrte your message...</a
+            >
+          </p>
+        </div>
+      </form>
+      <button>Send Message</button>
     </div>
   </body>
 </html>
