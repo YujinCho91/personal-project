@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-body {
+.container {
   display: grid;
   grid-template-columns: 1.5fr 2fr;
   gap: 4rem;
+  height: 100vh;
 }
 
 .main-container {
@@ -156,18 +156,28 @@ body {
   margin-bottom: 0.8rem;
 }
 .line-input-message {
-  padding: 2.8rem 16rem;
+  padding: 1.6rem;
+  margin: 0.6rem;
 }
 
 button {
-  position: absolute;
   color: white;
   background-color: rgba(50, 43, 150, 0.795);
-  padding: 1.6rem 6.8rem;
+  padding: 1.6rem 4.8rem;
   font-size: 1.2rem;
-  margin: -3.4rem 24rem;
+  margin-right: 2.2rem;
+  margin-bottom: 2.2rem;
 }
 
-.sub-container {
-  position: relative;
+form {
+  height: 90%;
+}
+
+.fifth {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text {
+  color: red;
 }
